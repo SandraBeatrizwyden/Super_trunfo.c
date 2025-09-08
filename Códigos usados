@@ -1,0 +1,39 @@
+#include <stdio.h>
+
+Inclui a biblioteca padrão para entrada e saída de dados (como printf e scanf).
+
+int main() { ... }
+
+Função principal do programa, onde tudo começa a rodar.
+
+Declaração de variáveis:
+
+char estado1; — para armazenar uma letra (estado).
+
+char codigo1[4]; — array de caracteres para armazenar o código da carta (string).
+
+char nomeCidade1[100]; — array de caracteres para armazenar o nome da cidade (string).
+
+int populacao1; — variável para número inteiro (população).
+
+float area1; — variável para número decimal (área).
+
+float pib1; — variável para número decimal (PIB).
+
+int pontosTuristicos1; — variável para inteiro (pontos turísticos).
+
+printf()
+
+Exibe texto na tela (mensagens, resultados, etc).
+
+scanf()
+
+Lê dados digitados pelo usuário e armazena nas variáveis.
+
+Comentários:
+
+Linhas que começam com // e explicam o que o código faz (não executadas).
+
+return 0;
+
+Indica que o programa terminou corretamente.
