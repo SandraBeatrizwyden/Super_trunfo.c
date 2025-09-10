@@ -1,28 +1,59 @@
-#include <stdio.h> //Inclui a biblioteca padrão para entrada e saída de dados (como printf e scanf).
+Códigos utilizados no programa
+Biblioteca:
+#include <stdio.h>
+Funções:
+main()
+printf()
+scanf()
 
-int main() { ... } //Função principal do programa, onde tudo começa a rodar.
+Tipos de dados:
+char
+int
+unsigned long int
+float
 
-Declaração de variáveis:
+Variáveis da Carta 1:
+estado1
+codigo1
+nomeCidade1
+populacao1
+area1
+pib1
+pontosTuristicos1
+densidade1
+pibPerCapita1
+superPoder1
 
-char estado1; — para armazenar uma letra (estado).
+Variáveis da Carta 2:
+estado2
+codigo2
+nomeCidade2
+populacao2
+area2
+pib2
+pontosTuristicos2
+densidade2
+pibPerCapita2
+superPoder2
 
-char codigo1[4]; — array de caracteres para armazenar o código da carta (string).
+Operadores:
+= (atribuição)
++ (adição)
+/ (divisão)
+> (maior que)
+< (menor que)
+? : (operador ternário)
+& (endereço, usado no scanf)
 
-char nomeCidade1[100]; — array de caracteres para armazenar o nome da cidade (string).
-
-int populacao1; — variável para número inteiro (população).
-
-float area1; — variável para número decimal (área).
-
-float pib1; — variável para número decimal (PIB).
-
-int pontosTuristicos1; — variável para inteiro (pontos turísticos).
-
-printf() //Exibe texto na tela (mensagens, resultados, etc).
-
-scanf() //Lê dados digitados pelo usuário e armazena nas variáveis.
+Especiais / literais:
+%c (placeholder para char)
+%3s (placeholder para string de até 3 caracteres)
+%99[^\n] (placeholder para string com espaços, até 99 caracteres)
+%lu (placeholder para unsigned long int)
+%d (placeholder para int)
+%f (placeholder para float)
+\n (nova linha)
+" " (espaço usado no scanf para ignorar caracteres extras)
 
 Comentários:
-Linhas que começam com // e explicam o que o código faz (não executadas).
-
-return 0; // Indica que o programa terminou corretamente.
+// (comentário de linha)
